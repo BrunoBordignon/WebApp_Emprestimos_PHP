@@ -41,9 +41,7 @@
 
     <fieldset>
         <form method="POST" action="cadastraritensaction.php">
-            <label>Nome do Item</label><br>
-            <input type="text" value="<?php echo $nome; ?>" name="nome"><br><br>
-            <label>Status do empréstimo</label><br>
+            <input type="text" placeholder="Escreve o nome do item" value="<?php echo $nome; ?>" name="nome"><br><br>
             <select name="status" >
                 <option value="Disponível" >Disponível</option>
            </select><br><br>

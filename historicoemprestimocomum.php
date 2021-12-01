@@ -15,9 +15,10 @@
 <body>
     <a href="logado.php"><<< Voltar para Perfil<br><br></a>
     <?php
-          echo "Data de hoje: ";
+          echo '<div class="echo" style="color:white">'.'Data de hoje: '.'</div>';
           $diahoje = date('Y-m-d', time());
-          echo $diahoje."<br><br>";
+          echo '<div class="echo" style="color:white">'.$diahoje.'</div><br><br>';
+
     ?>
     <table border="1">
                 <tr>
@@ -71,7 +72,7 @@
     </table>
 
     <br><br><br>
-    <label>Seu histórico de devoluções</label>
+    <label>Seu histórico de devoluções<br><br></label>
     <table border="1">
         <tr>
             <td>Nome do usuário que devolveu</td>
