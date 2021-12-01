@@ -14,8 +14,7 @@
 </head>
 <body>
 <a href="logadoadmin.php"><<< Voltar para Perfil<br><br></a>
-<div>
-        <h1 style="color: white;">LISTA GERAL DE EMPRÉSTIMOS PENDENTES E ATRASADOS [ADM CONSOLE]<br><br></h1>
+        <h1 style="color: white;"><br><br>LISTA GERAL DE EMPRÉSTIMOS PENDENTES E ATRASADOS [ADM CONSOLE]<br><br></h1>
         <table border="1">
             <tr>
                 <td>ID</td>
@@ -65,7 +64,6 @@
 
             ?>
         </table>
-    </div>
     </fieldset>
 
 

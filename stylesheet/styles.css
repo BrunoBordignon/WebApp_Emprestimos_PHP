@@ -56,6 +56,8 @@ input{
     outline: none;
     padding: 1.25rem;
     background: none;
+    display: block;
+    margin: auto;
 }
 
 body{
@@ -117,8 +119,9 @@ a{
     background-color: rgb(1, 35, 58);
 }
 
-p{
+p, h1{
     color: white;
+    text-align: center;
 }
 
 label{
@@ -139,6 +142,8 @@ select{
     outline: none;
     padding: 1.25rem;
     background: none;
+    display: block;
+    margin: auto;
 }
 
 a#activetedState{

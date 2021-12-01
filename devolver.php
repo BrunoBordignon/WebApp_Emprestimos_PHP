@@ -41,24 +41,15 @@
 
     <fieldset>
         <form method="POST" action="devolucaoaction.php">
-            <label>ID do empréstimo</label><br>
-
             <input type="hidden" value="<?php echo $id; ?>" readonly name="id"><br><br>
-
             <label>Nome do Item</label><br>
-
             <input type="text" value="<?php echo $nome; ?>" name="nome"><br><br>
 
             <label>Novo Status do empréstimo assim que confirmado</label><br>
-
             <select name="status" >
                 <option value="Disponível" >Disponível</option>
            </select><br><br>
-
-            <label>Insira a data do empréstimo</label><br>
             <input type="hidden" name="dataemprestimo" value="0000-00-00"><br><br>
-
-            <label>Insira a data para a devolução do empréstimo</label><br>
             <input type="hidden" name="datadevolucao" value="0000-00-00"><br><br>
 
             <input value="0" type="hidden" readonly name="iduser"><br><br>

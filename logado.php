@@ -32,8 +32,6 @@
         <p><br><br></p>
     </div>
     
-
-    <div>
         <h1 style="color: white;">LISTA GERAL DOS EMPRÉSTIMOS<br><br></h1>
         <table border="1">
             <tr>
@@ -96,7 +94,6 @@
 
             ?>
         </table>
-    </div>
     </fieldset>
 
 </body>
