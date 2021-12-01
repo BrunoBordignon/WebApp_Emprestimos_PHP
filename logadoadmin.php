@@ -26,12 +26,11 @@
         </svg>
 
         <p><br><br></p>
-        <?php echo "Olá,  " .$_SESSION['user'] . "<br><br>"; ?>
-        <a href="listadeusuarios.php">Ver Lista de usuários [ADM]</a><br><br>
-
-        <a href="cadastraritens.php">Cadastrar novos itens</a><br><br>
-        <a href="verpendentes.php">Ver todos os pendentes</a><br><br>
-        <a href="historicoemprestimos.php">Ver meu histórico</a><br><br><br><br>
+        <?php echo "Olá,  " .$_SESSION['user'] . "<br><br><br>"; ?>
+        <a href="listadeusuarios.php" class="menu">Ver Lista de usuários [ADM]</a>
+        <a href="cadastraritens.php" class="menu">Cadastrar novos itens</a>
+        <a href="verpendentes.php" class="menu">Ver todos os pendentes</a>
+        <a href="historicoemprestimos.php" class="menu">Ver meu histórico</a>
         <a href="logout.php">Logout</a>
         <p><br><br></p>
     </div>

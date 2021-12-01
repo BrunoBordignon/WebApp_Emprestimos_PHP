@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="./stylesheet/styles.css">
 </head>
 <body>
-   <fieldset>
+   <fieldset class="inicial">
        <form method="POST" action="useraction.php">
            <p>
                 <a id="deactivatedState" href="index.php">LOGIN</a> | 

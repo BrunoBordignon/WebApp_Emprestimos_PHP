@@ -42,9 +42,25 @@ table {
 
 /*FIM DO CSS RESET>> */
 
+* {
+    font-family: "Convergence", sans-serif;
+  }
+
+input{
+    border: 2px solid;
+    width: auto;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+
 body{
-    background: rgb(112,104,252);
-    background: linear-gradient(90deg, rgba(112,104,252,0.7595413165266106) 0%, rgba(132,78,199,0.5690651260504201) 35%, rgba(228,217,241,0.5690651260504201) 84%);
+    background: rgb(34,53,112);
+    background: linear-gradient(260deg, rgba(34,53,112,1) 0%, rgba(63,50,111,1) 100%, rgba(18,18,18,0.7875525210084033) 100%);
 }
 
 table, td, th{
@@ -59,16 +75,57 @@ table, td, th{
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: x-large;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-size:x-large;
+    font-family: monospace;
+}
+
+.menu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-size: larger;
     font-family: monospace;
 }
 
 .submitbutton{
+    display: block;
+    margin:auto;
     font-family: monospace;
     font-size: x-large;
     color: rgb(255, 255, 255);
     background-color: rgb(1, 116, 192);
+    margin-right: auto;
+    margin-left: auto;
 
+}
+
+.submitbutton:hover{
+    background-color: rgb(1, 35, 58);
+}
+
+select{
+    border: 2px solid;
+    width: auto;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
 }
 
 a#activetedState{
@@ -82,27 +139,49 @@ div{
     background-color: rgba(0, 0, 0, 0.37);
     border-width: 5px;
     border-style: double;
-    border-right: none;
+    border-left: none;
     border-top: none;
     border-bottom: none;
 }
 
 #userprofile{
-    background-color: rgba(93, 49, 255, 0.904);
+    background-color: rgba(43, 135, 255, 0.342);
+    display: block;
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 60px;
     text-align: center;
+    width: 100%;
     margin-bottom: 10%;
-    margin-left: 30%;
+    margin-left: none;
 }
 
 fieldset{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(39, 39, 39, 0.521);
+    border-style:outset;
+    border-radius: 20px;
+    border-width: 5px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    align-items: center;
+
+}
+
+.inicial{
+    background-color: rgba(39, 39, 39, 0.521);
     border-style:outset;
     border-radius: 20px;
     border-width: 5px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 7%;
+    align-items: center;
 
 }
 

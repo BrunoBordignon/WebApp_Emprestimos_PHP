@@ -16,7 +16,7 @@
         }
     ?>
 
-   <fieldset>
+   <fieldset class="inicial">
        <form method="POST" action="autenticacao.php">
            <p>
                 <a id="activetedState" href="index.php">LOGIN</a> | 

@@ -27,8 +27,8 @@
 
         <p><br><br></p>
         <?php echo "Olá,  " .$_SESSION['user'] . "<br><br>"; ?>
-        <a href="historicoemprestimocomum.php">Ver meu histórico</a><br><br><br>
-        <a href="logout.php">Logout</a>
+        <a href="historicoemprestimocomum.php" class="menu">Ver meu histórico</a>
+        <a href="logout.php" class="menu">Logout</a>
         <p><br><br></p>
     </div>
     
