@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*FIM DO CSS RESET>> */
+
+body{
+    background: rgb(112,104,252);
+    background: linear-gradient(90deg, rgba(112,104,252,0.7595413165266106) 0%, rgba(132,78,199,0.5690651260504201) 35%, rgba(228,217,241,0.5690651260504201) 84%);
+}
+
+table, td, th{
+    border-width: 3px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(43, 39, 46);
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.submitbutton{
+    font-family: monospace;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 116, 192);
+
+}
+
+a#activetedState{
+    background-color: rgba(83, 182, 92, 0.603);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+div{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-width: 5px;
+    border-style: double;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+#userprofile{
+    background-color: rgba(93, 49, 255, 0.904);
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 30%;
+}
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.322);
+    border-style:outset;
+    border-radius: 20px;
+    border-width: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+
+svg#profile{
+    color: rgb(255, 255, 255);
+}
+
+button#verdados:hover{
+    background-color: rgba(184, 238, 205, 0.74);
+}
